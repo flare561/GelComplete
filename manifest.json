@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GelComplete",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://gelbooru.com/*"
+      ],
+      "js": ["jquery/external/jquery/jquery.js", "jquery/jquery-ui.js", "content.js"],
+      "css": ["jquery/jquery-ui.css"]
+    }
+  ]
+}
