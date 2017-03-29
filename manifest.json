@@ -5,6 +5,7 @@
   "content_scripts": [
     {
       "matches": [
+        "https://gelbooru.com/*",
         "http://gelbooru.com/*"
       ],
       "js": ["jquery/external/jquery/jquery.js", "jquery/jquery-ui.js", "content.js"],
